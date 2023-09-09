@@ -3,7 +3,7 @@ import "./App.sass";
 function App() {
   return (
     <div className="container">
-      <img className="img" src="/images/illustration-hero.svg" />
+      <img className="img" src="/images/illustration-hero.svg" alt="Hero Illustration"/>
       <div className="content">
         <h1>Order Summary</h1>
         <p>
@@ -11,9 +11,9 @@ function App() {
           any device anywhere you like!
         </p>
         <div className="plan-container">
-          <img src="/images/icon-music.svg" alt="" className="icon" />
+          <img src="/images/icon-music.svg" alt="" className="icon" alt="Music Icon"/>
           <div className="plan">
-            <h4 className="selected">Annual Plan</h4>
+            <h2 className="selected">Annual Plan</h2>
             <p className="cost">$59.99/year</p>
           </div>
           <a href="#" className="plan-status">
